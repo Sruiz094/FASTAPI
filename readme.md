@@ -21,9 +21,7 @@ Este es un repositorio de plantilla que te permite comenzar rápidamente con la 
 * Clona este repositorio:
 
 ```bash
-git clone https://github.com/EdwarMontano/template_fastAPI_mongodb.git
-cd template_fastAPI_mongodb
-```
+git clone https://github.com/Sruiz094/FastAPI.git
 * Crea un archivo .env en la raíz del proyecto con las siguientes variables:
 
 ```text
