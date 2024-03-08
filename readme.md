@@ -10,7 +10,8 @@ Este es un proyecto educativo en el cual se creo una API REST simple creada con 
 
 ## Instalación
 
-* Clona este repositorio en tu maquina local: 
+* Clona este repositorio en tu maquina local:
+  
 git clone https://github.com/Sruiz094/FastAPI.git
 
 ## Configuraciones iniciales
