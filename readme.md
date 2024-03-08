@@ -49,7 +49,7 @@ docker compose --profile web  up
 uvicorn sql_app.main:app --port 8001 --reload 
 ```
 
-##API Endpoints
+## API Endpoints
 
 Obtener una lista de los usuarios de la base de datos 
 
@@ -94,13 +94,14 @@ Respuesta
 ]
 ```
 
-#Creación de usuarios
+# Creación de usuarios
 ```
 Post/users/
 ```
 Agrega un nuevo usuario al sistema. El cuerpo de la solicitud debe incluir un objeto JSON con las siguientes propiedades:
-"email"(cadena, obligatoria): la dirección de correo electrónico del usuario
-"password"(cadena, obligatoria): la contraseña del usuario
+
+• "email"(cadena, obligatoria): la dirección de correo electrónico del usuario
+• "password"(cadena, obligatoria): la contraseña del usuario
 
 Parametros 
 
@@ -123,7 +124,7 @@ curl -X 'POST' \
 }'
 ```
 
-#Consulta de ususario por id 
+# Consulta de ususario por id 
 
 ```
 GET /users/{user_id}
@@ -140,15 +141,15 @@ Respuesta
 }
 ```
 
-#Crear items para un usuario especifico 
+# Crear items para un usuario especifico 
 
 ```
 Post/users/{user_id}/items/
 ```
 Crea un items para un usuario especifico {user_id}/items/
 El cuerpo de la solicitud debe incluir un objeto JSON con las siguientes propiedades:
-"title"(cadena): título de nuevo items o artículo a crear
-"description"(cadena): descripción del items creado
+• "title"(cadena): título de nuevo items o artículo a crear
+• "description"(cadena): descripción del items creado
 
 Respuesta 
 ```
@@ -163,7 +164,8 @@ curl -X 'POST' \
 
 ```
 
-#Consultar los items creados 
+
+# Consultar los items creados 
 
 ```
 GET/items/
