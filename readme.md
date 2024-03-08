@@ -5,6 +5,7 @@ Este es un proyecto educativo en el cual se creo una API REST simple creada con 
 ## Requisitos previos
 
 - Docker y Docker Compose instalados en tu máquina. Preferiblemente con [docker desktop](https://www.docker.com/products/docker-desktop/)
+  
 - [pyenv](https://github.com/pyenv/pyenv#installation)
 
 
@@ -12,7 +13,7 @@ Este es un proyecto educativo en el cual se creo una API REST simple creada con 
 
 * Clona este repositorio en tu maquina local:
   
-git clone https://github.com/Sruiz094/FastAPI.git
+* git clone https://github.com/Sruiz094/FastAPI.git
 
 ## Configuraciones iniciales
 
@@ -101,8 +102,9 @@ Post/users/
 ```
 Agrega un nuevo usuario al sistema. El cuerpo de la solicitud debe incluir un objeto JSON con las siguientes propiedades:
 
-• "email"(cadena, obligatoria): la dirección de correo electrónico del usuario
-• "password"(cadena, obligatoria): la contraseña del usuario
+* "email"(cadena, obligatoria): la dirección de correo electrónico del usuario
+  
+* "password"(cadena, obligatoria): la contraseña del usuario
 
 Parametros 
 
@@ -149,8 +151,10 @@ Post/users/{user_id}/items/
 ```
 Crea un items para un usuario especifico {user_id}/items/
 El cuerpo de la solicitud debe incluir un objeto JSON con las siguientes propiedades:
-• "title"(cadena): título de nuevo items o artículo a crear
-• "description"(cadena): descripción del items creado
+
+* "title"(cadena): título de nuevo items o artículo a crear
+  
+* "description"(cadena): descripción del items creado
 
 Respuesta 
 ```
