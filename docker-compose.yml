@@ -28,6 +28,6 @@ services:
       - POSTGRES_DB=${POSTGRES_DB}
       - POSTGRES_USER=${POSTGRES_USER:-root}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-example}
-      # - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-aitrade}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-aitrade}
     ports:
       - '27018:27017'
